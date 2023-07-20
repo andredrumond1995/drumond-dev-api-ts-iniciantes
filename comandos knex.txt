@@ -1,0 +1,17 @@
+criar migration => 
+npx knex migrate:make users_table
+
+para rodar a migration =>
+npx knex migrate:latest
+
+apagar todas as migrations => 
+npx knex migrate:rollback --all
+
+
+criar seed
+npx knex seed:make users
+
+para rodar a seed =>
+npx knex seed:run
+
+
